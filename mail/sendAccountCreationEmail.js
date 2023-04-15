@@ -10,7 +10,7 @@ const sendEmailCreationEmail = async ({ name, email }) => {
   });
 
   var mainOptions = {
-    from: '"Suman Kumar" suman.kalia235@gmail.com',
+    from: '"kaif mansoori" mkaif.infograins@gmail.com',
     to: email,
     subject: "Account Activated",
     html: data,
